@@ -4,7 +4,7 @@ rm -r /etc/apt/source.list.d/ceph.list
 rm -r /etc/apt/sources.list.d/pve-enterprise.list
 rm -r /etc/apt/sources.list
 wget -O /etc/apt/sources.list https://raw.githubusercontent.com/itsmrval/pve-sh/main/sources.list
-wget -O /etc/apt/sources.list.d/ceph.list https://raw.githubusercontent.com/itsmrval/pve-sh/main/ceph.list
+# wget -O /etc/apt/sources.list.d/ceph.list https://raw.githubusercontent.com/itsmrval/pve-sh/main/ceph.list
 
 apt update 
 apt upgrade -y
